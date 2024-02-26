@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire compte</title>
+</head>
+<h1>Formulaire</h1>
+<body>
+    <form  class="formulaire" methode="get">
+        <label for="fprenom">prenom :</label>
+        <input class="formulaire__prenom" type="text" id="prenom" name="prenom"><br>
+        <label for="fnom">nom :</label>
+        <input class="formulaire__nom" type="text" id="nom" name="nom"><br>
+        <label for="femail">email :</label>
+        <input class="formulaire__email" type="email" id="email" name="email"><br>
+        <label for="fmotdepasse">mot de passe :</label>
+        <input class="formulaire__motdepasse" type="password" id="password" name="mot de passe" required><br>
+        <label for="fmessage">message :</label>
+        <textarea class="formulaire__message" type="text" id="message"></textarea>
+        <button type="submit">envoyer</button><br>
+    </form>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .formulaire{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+       
+    </style>
+   
+</body>
+</html>
