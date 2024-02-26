@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Abrilfatface";
+    src: url(./polices/AbrilFatface-Regular.ttf);
+    font-display: swap;
+    font-style: normal;
+}
+@import url("https://fonts.google.com/specimen/Playfair+Display");
+.icon{
+    width: 50%;
+    height: 50%;
+}
+body{
+    background-color: whitesmoke;
+    margin: 50px;
+    padding: 50px;
+}
+header.entete{
+    display: flex;
+    align-items: center;
+    
+}
+header.entete img{
+    width: 150px;
+}
+section.top-page{
+    background-size: cover;
+    height: 25vh;
+    padding: 20px;
+}
+.identity{
+    padding: 10px;
+}
+
