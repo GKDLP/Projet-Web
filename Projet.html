@@ -1,0 +1,74 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test carte</title>
+</head>
+<style>
+    .GridPrincipale {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        width: 50%;
+    }
+    .Grid {
+        display: grid;
+        grid-template-rows: 60% 40%;
+        border: black inset 2px;
+        width: 100%;
+        gap: 10px;
+        text-decoration: none;
+        transition: transform 0.2s;
+
+    }
+    .Grid:hover {
+      transform: scale(1.1);
+    }
+    .GridTitle{
+        text-align: center;
+        background-color: #FFFAF0;
+        font-size: large;
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+    img{
+        width: 100%;
+        height: 165px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    @media (max-width:700px){
+        .GridPrincipale{
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+<body >
+<section class="container">
+<div class="GridPrincipale">
+    <a href="#" class="Grid">
+        <img src="../Coralie/wiki/image.jpg" alt="test">
+        <p class="GridTitle">Ici votre titre</p>
+    </a>
+    <a href="#" class="Grid">
+        <img src="../Coralie/wiki/image2.jpg" alt="test">
+        <p class="GridTitle">Ici votre titre</p>
+    </a>
+    <a href="#" class="Grid">
+        <img src="../Coralie/wiki/image2.jpg" alt="test">
+        <p class="GridTitle">Ici votre titre</p>
+
+    </a>
+    <a href="#" class="Grid">
+        <img src="../Coralie/wiki/image.jpg" alt="test">
+        <p class="GridTitle">Ici votre titre</p>
+    </a>
+</div>
+</section>
+</body>
+
+
+</html>

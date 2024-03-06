@@ -7,7 +7,7 @@
 </head>
 <h1>Formulaire</h1>
 <body>
-    <form  class="formulaire" methode="get">
+    <form action="htmlTOphp.php" class="formulaire" method="GET">
         <label for="fprenom">prenom :</label>
         <input class="formulaire__prenom" type="text" id="prenom" name="prenom"><br>
         <label for="fnom">nom :</label>
@@ -15,9 +15,7 @@
         <label for="femail">email :</label>
         <input class="formulaire__email" type="email" id="email" name="email"><br>
         <label for="fmotdepasse">mot de passe :</label>
-        <input class="formulaire__motdepasse" type="password" id="password" name="mot de passe" required><br>
-        <label for="fmessage">message :</label>
-        <textarea class="formulaire__message" type="text" id="message"></textarea>
+        <input class="formulaire__motdepasse" type="password" id="password" name="password" required><br>
         <button type="submit">envoyer</button><br>
     </form>
     <style>
