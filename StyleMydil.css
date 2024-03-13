@@ -125,22 +125,25 @@ nav li:hover .header__nav__ul__li__ul{
 
 .header__nav__ul__barre__recherche__search{
   width: 60%;
-  padding: 4px 10px;
   font-size: 17px;
   border-radius: 10px;
+
 }
 
 .header__nav__ul__barre__recherche__submit{
+  display: flex;
   width: 100px;
   height: 30px;
   background-color: rgba(230, 100, 40, 0.671);
   transition: 0.2s;
   border-radius: 5px;
   box-shadow: 2px 2px 20px 0px #0000008c;
+
 }
 
 .header__nav__ul__barre__recherche__submit:hover{
   background-color: rgba(230, 100, 40);
+
 }
 
 .header__nav__ul__border__icone{
@@ -152,7 +155,10 @@ nav li:hover .header__nav__ul__li__ul{
 
 .header__nav__ul__logo{
   margin-top: 0px;
+
 }
+
+
 
 
 

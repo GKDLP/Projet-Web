@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulaire compte</title>
+    <title>Formulaire Compte</title>
 </head>
 <h1>Formulaire</h1>
 <body>
-    <form action="htmlTOphp.php" class="formulaire" method="GET">
-        <label for="fprenom">prenom :</label>
+    <form action="Formulaire.php" class="formulaire" method="GET">
+        <label for="fprenom">Prenom :</label>
         <input class="formulaire__prenom" type="text" id="prenom" name="prenom"><br>
-        <label for="fnom">nom :</label>
+        <label for="fnom">Nom :</label>
         <input class="formulaire__nom" type="text" id="nom" name="nom"><br>
-        <label for="femail">email :</label>
+        <label for="fpseudo">Pseudo :</label>
+        <input class="formulaire__pseudo" type="text" id="pseudo" name="pseudo"><br>
+        <label for="femail">Email :</label>
         <input class="formulaire__email" type="email" id="email" name="email"><br>
-        <label for="fmotdepasse">mot de passe :</label>
+        <label for="fmotdepasse">Mot de passe :</label>
         <input class="formulaire__motdepasse" type="password" id="password" name="password" required><br>
-        <button type="submit">envoyer</button><br>
+        <button type="submit">Envoyer</button><br>
     </form>
     <style>
         h1{

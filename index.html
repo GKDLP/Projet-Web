@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <header class="header">
         <nav class="header__nav">
             <ul class="header__nav__ul">
-                <img class="header__nav__ul__logo" src="Icone/EPSIwebp.webp">
+                <img class="header__nav__ul__logo" src="Icone/EPSIwebp.webp" alt="Nik Zebi">
                 <li class="header__nav__ul__li"><a class="header__nav__ul__li__link" href="#accueil"> Accueil</a>
                     <ul class="header__nav__ul__li__ul">
                         <li class="header__nav__ul__li__ul__li"><a class="header__nav__ul__li__ul__li__link" href="#Connexion"> Se connecter</a></li>
@@ -20,7 +20,7 @@
                 <li class="header__nav__ul__li"><a class="header__nav__ul__li__link" href="#Projet"> Projets</a>
                     <ul class="header__nav__ul__li__ul">
                         <li class="header__nav__ul__li__ul__li"><a class="header__nav__ul__li__ul__li__link" href="FormCP.html"> Création de projet</a></li>
-                        <li class="header__nav__ul__li__ul__li"><a class="header__nav__ul__li__ul__li__link" href="Projet.html"> Derniers Projets</a></li>
+                        <li class="header__nav__ul__li__ul__li"><a class="header__nav__ul__li__ul__li__link" href="projet.php"> Derniers Projets</a></li>
                     </ul>
                 <li class="header__nav__ul__li"><a class="header__nav__ul__li__link" href="#Contact"> Nous contacter</a>
                     <ul class="header__nav__ul__li__ul">
@@ -29,10 +29,10 @@
                     </ul>
                 </li>
                 <div class="header__nav__ul__barre">
-                    <form class="header__nav__ul__barre__recherche"> 
-                        <input type="text" name="text" class="header__nav__ul__barre__recherche__search" placeholder="Recherchez ici!">
-                        <input type="image" name="submit" class="header__nav__ul__barre__recherche__submit" src="Icone/Search.svg">
-                    </form>
+                    
+                    <input type="text" name="text" class="header__nav__ul__barre__recherche__search" placeholder="Recherchez ici!">
+                    <input type="image" name="submit" class="header__nav__ul__barre__recherche__submit" src="Icone/Search.svg">
+                    
                 </div>
                 <div class="header__nav__ul__border">
                     <a href="formulaire.html" target="_blank">
@@ -42,5 +42,85 @@
             </ul>
         </nav>
     </header>
+    <section class="section">
+        <div class="section__acceuil">
+                <div class="section__acceuil__workshop">
+                    <h1>Workshop</h1>
+                    <div class="section__acceuil__workshop__content">
+                        <img class="section__acceuil__workshop__img" src="Illustrations_Projets/nouveau_bâtiment.png" alt="">
+                        <p class="section__acceuil__workshop__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus autem earum hic explicabo ad, quaerat iure aspernatur dolore pariatur, id, qui laudantium consequatur distinctio officiis at nesciunt! Excepturi, veniam? Culpa.
+                        </p>
+                    </div>
+                </div>
+                <div class="section__acceuil__openinno">
+                    <h1>OpenInnovation</h1>
+                        <div class="section__acceuil__openinno__content">
+                            <img class="section__acceuil__openinno__img" src="Illustrations_Projets/borne-d'arcade.webp" alt="">
+                            <p class="section__acceuil__openinno__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus autem earum hic explicabo ad, quaerat iure aspernatur dolore pariatur, id, qui laudantium consequatur distinctio officiis at nesciunt! Excepturi, veniam? Culpa.
+                            </p>
+                        </div>
+                </div>
+        </div>
+    </section>
 </body>
+<style>
+.section{
+  background-color: #4245589f;
+  display: flex;
+  justify-content: center;
+  background: url(./Illustrations_Projets/international_sejour-Universite-Grenoble-Alpes.jpg) fixed;
+  background-size: cover;
+  
+}
+
+.section__acceuil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 0 20px 20px #0000002b;
+    width: 75%;
+
+}
+
+.section__acceuil__workshop,.section__acceuil__openinno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0;
+    border-radius: 15px;
+   
+
+}
+
+.section__acceuil__workshop__content,.section__acceuil__openinno__content{
+    display: flex;
+    flex-direction: center;
+
+}
+
+.section__acceuil__workshop__img,.section__acceuil__openinno__img{
+    border-radius: 25px;
+    height: auto;
+    width: 30%;
+    padding: 15px;
+
+}
+
+.section__acceuil__openinno__text,.section__acceuil__workshop__text{
+    border:solid black 5px;
+
+}
+
+.header__nav{
+    box-shadow: 0 0 0 black;
+}
+.header__nav__ul__li__link{
+    color : rgb(207, 205, 205);
+}
+
+
+</style>
 </html>
