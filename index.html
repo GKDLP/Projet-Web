@@ -45,22 +45,26 @@
     <section class="section">
         <div class="section__acceuil">
                 <div class="section__acceuil__workshop">
-                    <h1>Workshop</h1>
+                    <div class="section__acceuil__workshop__bulle">
+                        <h1>Workshop</h1>
+                    </div>
                     <div class="section__acceuil__workshop__content">
-                        <img class="section__acceuil__workshop__img" src="Illustrations_Projets/nouveau_bâtiment.png" alt="">
+                        <img class="section__acceuil__workshop__img" src="Illustrations_Projets/workshop_orig.jpg" alt="Workshop">
                         <p class="section__acceuil__workshop__text">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus autem earum hic explicabo ad, quaerat iure aspernatur dolore pariatur, id, qui laudantium consequatur distinctio officiis at nesciunt! Excepturi, veniam? Culpa.
                         </p>
                     </div>
                 </div>
                 <div class="section__acceuil__openinno">
-                    <h1>OpenInnovation</h1>
-                        <div class="section__acceuil__openinno__content">
-                            <img class="section__acceuil__openinno__img" src="Illustrations_Projets/borne-d'arcade.webp" alt="">
-                            <p class="section__acceuil__openinno__text">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus autem earum hic explicabo ad, quaerat iure aspernatur dolore pariatur, id, qui laudantium consequatur distinctio officiis at nesciunt! Excepturi, veniam? Culpa.
-                            </p>
-                        </div>
+                    <div class="section__acceuil__workshop__bulle">
+                        <h1>OpenInnovation</h1>
+                    </div>
+                    <div class="section__acceuil__openinno__content">
+                        <img class="section__acceuil__openinno__img" src="Illustrations_Projets/OIP.jfif" alt="OpenInnovation">
+                        <p class="section__acceuil__openinno__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus autem earum hic explicabo ad, quaerat iure aspernatur dolore pariatur, id, qui laudantium consequatur distinctio officiis at nesciunt! Excepturi, veniam? Culpa.
+                        </p>
+                    </div>
                 </div>
         </div>
     </section>
@@ -92,7 +96,15 @@
     box-shadow: 0 0 0;
     border-radius: 15px;
    
+}
 
+.section__acceuil__workshop__bulle{
+    background-color: rgba(184, 52, 0, 0.603);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin: 5px;
 }
 
 .section__acceuil__workshop__content,.section__acceuil__openinno__content{
@@ -110,7 +122,7 @@
 }
 
 .section__acceuil__openinno__text,.section__acceuil__workshop__text{
-    border:solid black 5px;
+    border:solid rgba(184, 52, 0, 0.603) 5px;
 
 }
 
